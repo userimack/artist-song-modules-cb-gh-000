@@ -9,10 +9,6 @@ class Song
 
   @@songs = []
 
-  def self.find_by_name(name)
-    @@songs.detect{|a| a.name == name}
-  end
-
   def artist=(artist)
     @artist = artist
   end
